@@ -1,0 +1,79 @@
+@media (max-width: 1440px){
+    section {
+        padding-top: 0px;
+    }
+    .home{
+        padding-left: 300px;
+        padding-top: 50px;
+    }
+}
+
+@media (max-width: 1024px){
+    .card_pika {
+        width: 400px;
+    }
+    .home {
+        padding-left: 150px;
+        padding-top: 10px;
+    }
+    section {
+        padding-top: 0px;
+    }
+    main{
+        padding-top: 13rem;
+    }
+}
+
+@media (max-width: 768px) {
+    .home {
+        padding-left: 100px;
+        padding-top: 10px;
+    }
+    .card_pika {
+        width: 300px;
+    }
+    section {
+        display: block;
+        padding-top: 0px;
+        padding-right: auto;
+    }
+    main {
+        padding-top: 11rem;
+    }
+}
+
+@media (max-width: 425px) {
+    .home {
+        padding-left: 50px;
+        padding-top: 10px;
+    }
+    .card_pika {
+        width: 170px;
+    }
+    main{
+        padding-top: 1rem;
+    }
+}
+
+@media (max-width: 375px) {
+    .home {
+        padding-left: 80px;
+        padding-top: 10px;
+    }
+    .card_pika {
+        width: 160px;
+    }
+    main{
+        padding-top: 10px;
+    }
+}
+
+@media (max-width: 320px) {
+    .home {
+        padding-left: 65px;
+        padding-top: 10px;
+    }
+    .card_pika {
+        width: 150px;
+    }
+}
