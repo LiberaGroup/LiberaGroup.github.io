@@ -7,4 +7,4 @@ Welcome on the GitHub page of the LiberaGroup website
 [liberagroup.fr](https://liberagroup.fr/)
 
 ### Thanks to ...
-[StartBootstrap](https://startbootstrap.com) for the templete
+[StartBootstrap](https://startbootstrap.com) for the template
