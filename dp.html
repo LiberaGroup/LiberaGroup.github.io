@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+        <meta name="description" content="LiberaGroup est une association française de loi 1901, son but est de rendre l'informatique accessible à tous." />
+        <meta name="author" content="LiberaGroup" />
+        <title>LiberaGroup</title>
+        <!-- Favicon-->
+        <link rel="icon" type="image/x-icon" href="assets/favicon.ico" />
+        <!-- Font Awesome icons (free version)-->
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/js/all.min.js" integrity="sha512-fD9DI5bZwQxOi7MhYWnnNPlvXdp/2Pj3XSTRrFs5FQa4mizyGLnJcN6tuvUS6LbmgN1ut+XGSABKvjN0H6Aoow==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+        <!-- Google fonts-->
+        <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css" />
+        <link href="https://fonts.googleapis.com/css?family=Roboto+Slab:400,100,300,700" rel="stylesheet" type="text/css" />
+        <!-- Core theme CSS (includes Bootstrap)-->
+        <link href="css/styles.css" rel="stylesheet" />
+        <!-- Custom CSS -->
+        <style>
+            /* Réduire la largeur des champs */
+            .custom-form-control {
+                max-width: 450px;
+            }
+        </style>
+    </head>
+<body id="page-top">
+<!-- Navigation-->
+<nav class="navbar navbar-expand-lg navbar-dark fixed-top" id="mainNav">
+    <div class="container">
+        <a class="navbar-brand" href="./index.html#page-top"><h3>LiberaGroup</h3></a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+            Menu
+            <i class="fas fa-bars ms-1"></i>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarResponsive">
+            <ul class="navbar-nav text-uppercase ms-auto py-4 py-lg-0">
+                <li class="nav-item"><a class="nav-link" href="./index.html#services">Notre but</a></li>
+                <li class="nav-item"><a class="nav-link" href="./index.html#about">À propos</a></li>
+                <li class="nav-item"><a class="nav-link" href="./index.html#team">Notre équipe</a></li>
+                <li class="nav-item"><a class="nav-link" href="./index.html#contact">Nous contacter</a></li>
+                <li class="nav-item"><a class="nav-link" href="/redirect/liberadev.html">LiberaDev</a></li>
+                <li class="nav-item"><a class="nav-link" href="/redirect/liberaedu.html">LiberaEdu</a></li>
+            </ul>
+        </div>
+    </div>
+</nav>
+<!-- Masthead-->
+<header class="masthead">
+    <div class="container">
+        <div class="masthead-subheading">LiberaGroup Protection des Données</div>
+        <div class="masthead-heading text-uppercase">Besoin de contacter notre équipe ?</div>
+        <a class="btn btn-primary btn-xl text-uppercase" href="#contact">Nous sommes là pour ça</a>
+    </div>
+</header>
+<!-- Contact-->
+<section class="page-section d-flex justify-content-center align-items-center" id="contact">
+    <div class="container">
+        <div class="text-center">
+            <h2 class="section-heading text-uppercase">Nous contacter</h2>
+            <h3 class="section-subheading text-muted">Une question ? Une proposition ? Juste en-dessous ça passe.</h3>
+            <!-- Formulaire de contact -->
+            <form action="./php/post_mail.php" method="post">
+                <div class="mb-3 text-center">
+                    <label for="email" class="form-label visually-hidden">Adresse e-mail</label>
+                    <input type="email" class="form-control custom-form-control mx-auto" id="email" name="email" placeholder="Adresse e-mail" required>
+                </div>
+                <div class="mb-3 text-center">
+                    <label for="object" class="form-label visually-hidden">Objet</label>
+                    <input type="text" class="form-control custom-form-control mx-auto" id="object" name="object" placeholder="Objet" onFocus="if(this.placeholder === 'Objet') {this.placeholder = ''}" onBlur="if(this.placeholder === '') {this.placeholder = 'Objet'}">
+                </div>
+                <div class="mb-3 text-center">
+                    <label for="message" class="form-label visually-hidden">Texte</label>
+                    <textarea class="form-control custom-form-control mx-auto" id="message" name="message" rows="7" placeholder="Texte" onFocus="if(this.placeholder === 'Texte') {this.placeholder = ''}" onBlur="if(this.placeholder === '') {this.placeholder = 'Texte'}"></textarea>
+                </div>
+                <button class="btn btn-primary btn-xl text-uppercase" type="submit">Envoyer</button>
+            </form>
+        </div>
+    </div>
+</section>
+<!-- Footer-->
+<footer class="footer py-4">
+    <div class="container">
+        <div class="row align-items-center">
+            <div class="col-lg-4 text-lg-start">LiberaGroup &copy; 2023 - Tous droits réservés</div>
+            <div class="col-lg-4 my-3 my-lg-0">
+                <a class="btn btn-dark btn-social mx-2" href="/redirect/twitter.html" aria-label="Twitter"><i class="fab fa-twitter"></i></a>
+                <a class="btn btn-dark btn-social mx-2" href="/redirect/facebook.html" aria-label="Facebook"><i class="fab fa-facebook-f"></i></a>
+                <a class="btn btn-dark btn-social mx-2" href="/redirect/instagram.html" aria-label="instagram"><i class="fab fa-instagram"></i></a>
+                <a class="btn btn-dark btn-social mx-2" href="/redirect/github.html" aria-label="Github"><i class="fab fa-github"></i></a>
+            </div>
+            <div class="col-lg-4 text-lg-end">
+                <a class="link-dark text-decoration-none me-3" href="assets/file/legal.pdf">Mentions Légales</a>
+                <a class="link-dark text-decoration-none me-3" href="./dp.html">Contacter l'équipe PO</a>
+            </div>
+        </div>
+    </div>
+</footer>
+<!-- Bootstrap core JS-->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
+<!-- Core theme JS-->
+<script src="js/scripts.js"></script>
+</body>
+</html>
