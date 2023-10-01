@@ -6,7 +6,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     $message = $_POST["message"];
 
     // Adresse e-mail de destination
-    $to = "mesdonnees@liberagroup.fr";
+    $to = "po@liberagroup.fr";
 
     // En-têtes de l'e-mail
     $headers = "From: $email\r\n";
